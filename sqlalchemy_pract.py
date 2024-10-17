@@ -40,7 +40,7 @@ session.execute(
     db.delete(
         users
     ).where(
-        users.columns.user_name=='Vasya'
+        users.columns.user_name=='Petr'
     )
 )
 session.commit()
